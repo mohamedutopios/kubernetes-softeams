@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: jeu-2048
+spec:
+  containers:
+  - name: jeu-2048
+    image: agrawpri/2048-docker
+    ports:
+      - containerPort: 80
